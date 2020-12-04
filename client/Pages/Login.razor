@@ -1,0 +1,21 @@
+<div class="card login">
+    <div class="card-header card-header-custom">
+        <img src="/assets/twilio-mark-red.svg" alt="Twilio Conversations" />
+    </div>
+    <div class="card-body">
+        <EditForm Model="@model" OnSubmit="HandleSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="row login-card-body">
+                <div class="col-12">
+                    <InputText @bind-Value="model.Name" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn primary-btn login-card-body-button">Sign In</button>
+                </div>
+            </div>
+        </EditForm>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.login {
+    width: 404px;
+    display: flex;
+}
+
+.card-header-custom {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.login-card-body {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button.login-card-body-button {
+    /*display:flex;*/
+    justify-content: center;
+}
